@@ -1,0 +1,46 @@
+n8n — https://api.iconify.design/logos/n8n-icon.svg?color=%23ac286c
+Zapier — https://api.iconify.design/tabler/brand-zapier.svg?color=%23ac286c
+Make — https://api.iconify.design/simple-icons/make.svg?color=%23ac286c
+Webhooks — https://api.iconify.design/tabler/webhook.svg?color=%23ac286c
+REST APIs — https://api.iconify.design/tabler/api.svg?color=%23ac286c
+ChatGPT AI — https://api.iconify.design/tabler/brand-openai.svg?color=%23ac286c
+Claude Code — https://api.iconify.design/logos/claude-code.svg?color=%23ac286c
+Gemini — https://api.iconify.design/logos/google-gemini-icon.svg?color=%23ac286c
+Grok AI — https://api.iconify.design/logos/grok-icon.svg?color=%23ac286c
+DeepSeek — https://api.iconify.design/logos/deepseek-icon.svg?color=%23ac286c
+ElevenLabs — https://api.iconify.design/simple-icons/elevenlabs.svg?color=%23ac286c
+Vapi — https://api.iconify.design/thesvg-color/vapi.svg?color=%23ac286c
+GoHighLevel — ../logos/gohighlevel.png
+Pipedrive — https://api.iconify.design/logos/pipedrive.svg?color=%23ac286c
+Apollo.io — https://www.apollo.io/icon.svg?icon.11df6mby0rn6l.svg
+ServiceM8 — https://cdn.prod.website-files.com/57d7ef8b3d16a9a554f037bf/57d7ef8c3d16a9a554f03886_webclip.png
+GitHub — https://api.iconify.design/simple-icons/github.svg?color=%23ac286c
+Cloudflare — https://api.iconify.design/logos/cloudflare-icon.svg?color=%23ac286c
+Supabase — https://api.iconify.design/logos/supabase-icon.svg?color=%23ac286c
+Lovable.dev — https://api.iconify.design/logos/lovable-icon.svg?color=%23ac286c
+Apify — https://api.iconify.design/devicon/apify.svg?color=%23ac286c
+Firecrawl — https://api.iconify.design/thesvg-color/firecrawl-light.svg?color=%23ac286c
+Airtable — https://api.iconify.design/logos/airtable.svg?color=%23ac286c
+Google Workspace — https://api.iconify.design/logos/google-workspace.svg?color=%23ac286c
+Google Drive — https://api.iconify.design/logos/google-drive.svg?color=%23ac286c
+Microsoft 365 — https://api.iconify.design/selfhst/microsoft-365.svg?color=%23ac286c
+Notion — https://api.iconify.design/logos/notion-icon.svg?color=%23ac286c
+Asana — https://api.iconify.design/logos/asana-icon.svg?color=%23ac286c
+ClickUp — https://api.iconify.design/logos/clickup-icon.svg?color=%23ac286c
+Trello — https://api.iconify.design/devicon/trello.svg?color=%23ac286c
+Xero — https://api.iconify.design/logos/xero.svg?color=%23ac286c
+JotForm — https://cdn.jotfor.ms/assets/img/favicons/apple-touch-icon-180x180.png
+Meta Business — https://api.iconify.design/logos/meta-icon.svg?color=%23ac286c
+Facebook Graph API — https://api.iconify.design/logos/facebook.svg?color=%23ac286c
+Messenger — https://api.iconify.design/logos/messenger.svg?color=%23ac286c
+Reddit — https://api.iconify.design/logos/reddit-icon.svg?color=%23ac286c
+Canva — https://api.iconify.design/devicon/canva.svg?color=%23ac286c
+CapCut — https://api.iconify.design/thesvg-color/capcut.svg?color=%23ac286c
+WordPress — https://api.iconify.design/logos/wordpress-icon.svg?color=%23ac286c
+Render — https://api.iconify.design/simple-icons/render.svg?color=%23ac286c
+HubSpot — https://api.iconify.design/simple-icons/hubspot.svg?color=%23ac286c
+monday.com — https://api.iconify.design/logos/monday-icon.svg?color=%23ac286c
+Microsoft Copilot — https://api.iconify.design/thesvg-color/microsoft-copilot.svg?color=%23ac286c
+Groq — https://api.iconify.design/thesvg-color/groq.svg?color=%23ac286c
+Hostinger — https://api.iconify.design/simple-icons/hostinger.svg?color=%23ac286c
+Brand marks identify the corresponding tools; trademarks remain with their owners. Webhooks and REST APIs use generic Tabler technical icons. Iconify collection license information: https://icon-sets.iconify.design/

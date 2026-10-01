@@ -1,0 +1,73 @@
+/* Shared visual language: dark glass, cyan circuitry, quiet ambient motion. */
+:root{--circuit-edge:#68d9ef42;--circuit-light:#9ceafa;--circuit-panel:linear-gradient(125deg,#0b2331c9,#06131fc9)}
+body{background-color:#050e16}
+main>.section:not(#about-impact),.about-live-layout,.premium-hero{position:relative;isolation:isolate;background:radial-gradient(ellipse at 90% 12%,#0b3a4c30,transparent 62%)}
+main>.section:not(#about-impact){border-color:#679eb514}
+.section h2 em,.stack-heading h2 em,.about-live-copy h2 em{color:#afeaf3;background-image:linear-gradient(100deg,#a0d4df 35%,#e7fbff 50%,#a0d4df 65%)}
+.eyebrow{color:#8de4f0}
+.section-circuit{position:absolute;top:0;left:var(--gutter,6%);right:var(--gutter,6%);height:1px;background:linear-gradient(90deg,transparent,#63d8ef32,transparent);pointer-events:none;overflow:visible}
+.section-circuit:after{content:"";position:absolute;left:0;top:-2px;width:5px;height:5px;border-radius:50%;background:#76e7fa;box-shadow:0 0 14px #41d9f7;opacity:0}
+.circuit-active>.section-circuit:after{animation:section-signal 13s linear infinite;animation-delay:var(--signal-delay,0s)}
+@keyframes section-signal{0%{left:0;opacity:0}10%,80%{opacity:.65}100%{left:100%;opacity:0}}
+header{border-bottom-color:#72cfeb20;background:#050e16ed;box-shadow:0 5px 36px #00101850}
+header nav a{transition:color .2s,text-shadow .2s}
+header nav a:hover{color:#b9f3ff;text-shadow:0 0 15px #49dafa75}
+.button,.nav-contact{border-radius:9px!important;border:1px solid #93edffc0!important;background:linear-gradient(120deg,#155873,#103548)!important;color:#e6fbff!important;box-shadow:0 0 18px #3edfff16,inset 0 1px #d0faff24!important;transition:transform .25s,box-shadow .25s,border-color .25s!important}
+.button:hover,.nav-contact:hover{transform:translateY(-2px);border-color:#c7f9ff!important;box-shadow:0 0 24px #42dafa38,inset 0 0 18px #8be8ff0d!important}
+.button.secondary{background:#071824a8!important;border-color:#69bfd55c!important;color:#c3e8f1!important}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid #9decff;outline-offset:5px}
+.premium-hero .hero-copy{position:relative}
+.premium-hero .hero-copy:before{content:"";display:block;width:84px;height:1px;margin-bottom:24px;background:linear-gradient(90deg,#a6f0ff,transparent);box-shadow:0 0 14px #4fe5ff66}
+.premium-hero .portrait-orbit{border-color:#71ddef80;box-shadow:0 0 45px #35cce921,inset 0 0 36px #48c7ef0b}
+.premium-hero .portrait-caption{background:#061822c9;border:1px solid #76dff34a;box-shadow:0 0 28px #2bccf414;border-radius:12px}
+.credibility-strip{border-color:#63c4df25!important}
+.help-card,.project-card,.testimonial-quote{position:relative;background:var(--circuit-panel)!important;border:1px solid var(--circuit-edge)!important;border-top-color:#82e6f784!important;border-radius:15px!important;box-shadow:inset 0 1px #acf1fc08,0 15px 35px #00000013!important;transition:border-color .3s,box-shadow .3s,transform .3s!important}
+.help-card:hover,.project-card:hover,.testimonial-quote:hover{border-color:#92eafa80!important;box-shadow:0 0 28px #35d8fa18,inset 0 1px #b4f4ff20!important;transform:translateY(-3px)}
+.help-card>svg{width:48px;height:48px;padding:11px;border:1px solid #7ce5f5a0;border-radius:50%;color:#b1edfa;background:#061925;box-shadow:0 0 20px #33dafa12}
+.help-card h3,.build-item h3,.process-grid h3{color:#c1eaf1}
+.help-card ul{border-color:#7ec6da25}
+.project-card{overflow:hidden}
+.project-card .project-card-body{border-top:1px solid #6ad2eb38}
+.project-card .case-result{padding:16px!important;border:1px solid #68d9ef33;border-radius:9px;background:#06152088}
+.project-card .tags li,.project-card .tags span{border-color:#69cadc35;background:#0b253580}
+.project-open,.text-link{color:#9be6f3;border-color:#5dcde14d}
+.context-cta,.tool-reference{position:relative;border:1px solid #62c8e035!important;border-top-color:#6de5fc8c!important;border-radius:13px;background:linear-gradient(110deg,#06121e99,#09233128);padding:22px 26px!important}
+.context-cta{margin-top:32px!important}
+.build-grid{column-gap:52px}
+.build-item{border-color:#65bfdb25!important;transition:background .3s,border-color .3s}
+.build-item:hover{border-color:#79e7f775!important;background:linear-gradient(90deg,#153a481b,transparent)}
+.build-dot{box-shadow:0 0 12px #52e4ff55}
+.skills,.faq-list details,.experience{border-color:#6cbad331!important;background:linear-gradient(110deg,#0b22313d,transparent)}
+.skills summary,.faq-list summary,.experience summary{transition:color .2s,background .2s}
+.skills summary:hover,.faq-list summary:hover,.experience summary:hover{color:#a5efff;background:#13506314}
+.skills[open],.faq-list details[open],.experience[open]{border-color:#75deee68!important}
+.process-grid li{position:relative;border-top:0!important;padding-top:0!important}
+.process-grid .process-icon{position:relative;display:grid;place-items:center;width:48px;height:48px;padding:10px;border:1px solid #83e4f3b0;border-radius:50%;color:#baf3fb;background:#071b26;box-shadow:0 0 20px #41d9f418;margin-bottom:30px}
+.process-grid li:not(:last-child):before{content:"";position:absolute;top:24px;left:65px;right:-15px;height:1px;background:linear-gradient(90deg,#7cdbef90,#62c9e126)}
+.process-grid .process-icon:after{content:"";position:absolute;left:23px;top:48px;height:20px;border-left:1px dotted #63cbe585}
+.process-grid svg{width:26px;height:26px}
+.tech-stack .stack-card{border-top-color:#73deee70;background:var(--circuit-panel)}
+.tech-stack .stack-card:hover{box-shadow:0 0 20px #37defa28!important;transform:scale(1.035)}
+.timeline{border-left:1px solid #66d9f14d;padding-left:28px;margin-left:6px}
+.timeline .experience{position:relative}
+.timeline .experience:before{content:"";position:absolute;left:-33px;top:33px;width:8px;height:8px;border-radius:50%;background:#7ce4f6;box-shadow:0 0 12px #53d9f58c}
+.experience-learning{border-color:#68cde42e}
+.experience-learning li{border-color:#7ad2ed25;color:#bfd3df}
+.testimonial-rule{background:linear-gradient(90deg,#93eaff,transparent);box-shadow:0 0 10px #45def544}
+.testimonial-quote .quote-mark{color:#a6f0fa;text-shadow:0 0 18px #4bdcfa40}
+.testimonial-quote figcaption{padding-top:18px;border-top:1px solid #75c9de28;color:#a1dce9!important}
+#contact,.about-final-cta{background:radial-gradient(ellipse at 50% 0,#11425455,transparent 65%),#06121a70!important}
+.contact-links a:hover{color:#b2f5ff;text-shadow:0 0 14px #3dd9f85e}
+.about-live-copy{position:relative}
+.about-art-crop{border:1px solid #68d9ef4f!important;border-top-color:#8ce8fa88!important;border-radius:16px;box-shadow:0 0 40px #3cceef18}
+.method-flow li{position:relative;border-color:#6dcde447!important;background:var(--circuit-panel);border-radius:12px}
+.method-flow li:before{color:#adeafa!important;text-shadow:0 0 12px #53cfe044}
+.faq-list{border-top:1px solid #78dbe64d}
+.project-dialog{background:#061520;border:1px solid #6de2f680;box-shadow:0 0 60px #0fcfff20;border-radius:16px}
+.project-dialog::backdrop{background:#01080fdd;backdrop-filter:blur(8px)}
+footer{border-top-color:#6acde325!important;background:#040d16b0}
+@media(max-width:760px){.context-cta,.tool-reference{padding:20px!important}.timeline{padding-left:20px}.timeline .experience:before{left:-25px}.process-grid li:not(:last-child):before{display:none}.project-card:hover,.help-card:hover,.testimonial-quote:hover{transform:none}.about-art-crop{border-radius:12px}}
+@media(prefers-reduced-motion:reduce){.section-circuit:after{animation:none!important}.button,.nav-contact,.help-card,.project-card,.testimonial-quote{transition:none!important}.button:hover,.nav-contact:hover,.help-card:hover,.project-card:hover,.testimonial-quote:hover{transform:none}}
+.process-grid li:not(:last-child):before{width:auto;min-width:0;border:0;border-radius:0;padding:0;margin:0;content:"";transform:none;box-shadow:none}
+.process-grid li:last-child:before{display:none}
+.circuit-paused .section-circuit:after{animation-play-state:paused!important}

@@ -1,0 +1,39 @@
+/* Business impact: connected outcomes with restrained cyan motion. */
+#about-impact{position:relative;isolation:isolate;overflow:hidden;background:radial-gradient(ellipse at 75% 10%,#09344650,transparent 65%),linear-gradient(110deg,#050e16c9,#061723a8);padding-block:72px 48px}
+#about-impact:before{content:"";position:absolute;z-index:-1;inset:0;pointer-events:none;background-image:linear-gradient(#65ddf905 1px,transparent 1px),linear-gradient(90deg,#65ddf905 1px,transparent 1px);background-size:90px 90px;mask-image:linear-gradient(#0008,transparent)}
+#about-impact .section-heading{margin-bottom:42px}
+#about-impact .section-heading h2{font-size:clamp(28px,2.65vw,42px);line-height:1.2;letter-spacing:-1.2px;margin:0}
+#about-impact .section-heading h2 em{color:#a4e4ee;background-image:linear-gradient(100deg,#a4e4ee 35%,#e4fcff 50%,#a4e4ee 65%)}
+#about-impact .impact-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0}
+#about-impact .impact-grid article{position:relative;border:0;padding:0 24px 0 0;min-width:0}
+#about-impact .impact-grid article:after{content:"";position:absolute;right:18px;top:78px;bottom:0;width:1px;background:linear-gradient(transparent,#5da6c018,transparent)}
+#about-impact .impact-node{height:80px;display:flex;align-items:flex-start;position:relative;gap:18px}
+#about-impact .impact-icon{display:grid;place-items:center;width:48px;height:48px;flex-shrink:0;border:1px solid #7de4f3bd;border-radius:50%;color:#b7f3fa;background:#071b26;box-shadow:0 0 24px #41d9f416,inset 0 0 16px #4bdef008;position:relative;transition:box-shadow .3s,transform .3s}
+#about-impact .impact-icon:after{content:"";position:absolute;top:48px;height:25px;left:50%;border-left:1px dotted #61d8ed6b}
+#about-impact .impact-icon svg{width:23px;height:23px}
+#about-impact .impact-number{font-size:14px;color:#a9e8f0;padding-top:12px}
+#about-impact .impact-connector{position:absolute;top:24px;left:102px;width:calc(100% - 78px);height:1px;background:linear-gradient(90deg,#6ae6ff66,#5de1fc99,#6ae6ff22)}
+#about-impact .impact-connector:before{content:"";position:absolute;left:0;top:-3px;width:7px;height:7px;border-radius:50%;background:#66e5fa;box-shadow:0 0 10px #53e2ff,0 0 22px #28c7f680;animation:impact-signal 4.5s linear infinite;animation-delay:var(--node-delay)}
+#about-impact article:last-child .impact-connector{display:none}
+#about-impact .impact-category{font-size:10px;line-height:1.5;letter-spacing:1.4px;color:#8eacb9;margin:0 0 8px}
+#about-impact .impact-grid h3{font-size:19px;color:#b8e9f0;margin:0 0 9px;font-weight:600}
+#about-impact .impact-grid article>p:last-child{font-size:14px;line-height:1.65;margin:0;color:#b3c6d1}
+#about-impact .impact-grid article:hover .impact-icon{box-shadow:0 0 28px #51dfff40,inset 0 0 18px #51dfff12;transform:translateY(-2px)}
+#about-impact .impact-objective-panel{position:relative;margin:32px -24px 0;padding:18px 28px;border:1px solid #62c8e035;border-top-color:#6de5fc9c;border-radius:15px;background:linear-gradient(110deg,#06121e99,#09233128);overflow:hidden}
+#about-impact .impact-objective-panel:before{content:"";position:absolute;top:0;left:-20%;width:20%;height:1px;background:#a5f8ff;box-shadow:0 0 12px 2px #48d8fa;animation:objective-signal 9s linear infinite;pointer-events:none}
+#about-impact .objective-label{display:flex;align-items:center;gap:20px;color:#87dce9;font-size:11px;letter-spacing:2px;font-weight:600;margin:0 0 10px}
+#about-impact .objective-label span{width:6px;height:6px;border-radius:50%;background:#65e5fc;box-shadow:0 0 12px #63dfff}
+#about-impact .impact-objective{max-width:900px;font-size:20px;line-height:1.5;padding:0;margin:0;border:0;color:#d7e6ed}
+#about-impact>.credibility-highlights{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0;margin-top:28px;padding:0}
+#about-impact .credibility-highlights p{position:relative;padding:4px 16px 4px 28px;margin:0;border-right:1px solid #7095a520;font-size:15px;color:#a9e7f1;line-height:1.5}
+#about-impact .credibility-highlights p:before{content:"";position:absolute;left:0;top:12px;width:7px;height:7px;border-radius:50%;background:#66dff4;box-shadow:0 0 15px #36d5fa80;animation:impact-glow 4s ease-in-out infinite alternate}
+#about-impact .credibility-highlights p:last-child{border-right:0}
+#about-impact .credibility-highlights span{font-size:12px;color:#a8bbc9}
+@keyframes impact-signal{from{transform:translateX(0);opacity:.5}50%{opacity:1}to{transform:translateX(145px);opacity:.3}}
+@keyframes objective-signal{to{left:110%}}
+@keyframes impact-glow{to{box-shadow:0 0 18px 2px #36d5fa66;opacity:.65}}
+@media(min-width:1500px){#about-impact .impact-connector:before{animation-name:impact-signal-wide}@keyframes impact-signal-wide{to{transform:translateX(180px)}}}
+@media(max-width:1000px){#about-impact .impact-grid{grid-template-columns:1fr;gap:28px}#about-impact .impact-grid article{padding-left:80px;padding-right:0}#about-impact .impact-node{position:absolute;left:0;top:0;display:block;height:100%;width:60px}#about-impact .impact-number{display:block;text-align:center;width:48px;padding-top:8px}#about-impact .impact-icon:after{display:none}#about-impact .impact-connector{top:82px;left:24px;width:1px;height:calc(100% - 54px)}#about-impact .impact-connector:before{left:-3px;top:0;animation:impact-signal-vertical 3s linear infinite}#about-impact .impact-grid article:after{display:none}#about-impact .impact-category{margin-top:0}#about-impact>.credibility-highlights{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}#about-impact .impact-objective-panel{margin-inline:0}@keyframes impact-signal-vertical{to{transform:translateY(45px);opacity:.2}}}
+@media(max-width:600px){#about-impact{padding-block:52px 36px}#about-impact .section-heading h2{letter-spacing:-.7px}#about-impact .impact-objective-panel{padding:20px}#about-impact .impact-objective{font-size:17px}#about-impact>.credibility-highlights{grid-template-columns:1fr 1fr;gap:20px}#about-impact .credibility-highlights p{font-size:14px;padding-left:18px;border:0}}
+@media(prefers-reduced-motion:reduce){#about-impact .impact-connector:before,#about-impact .impact-objective-panel:before,#about-impact .credibility-highlights p:before{animation:none}#about-impact .impact-icon{transition:none}}
+@media(min-width:1001px){#about-impact .impact-connector:before{animation-name:impact-signal-fit}@keyframes impact-signal-fit{from{left:0;opacity:.3}50%{opacity:1}to{left:100%;opacity:.3}}}

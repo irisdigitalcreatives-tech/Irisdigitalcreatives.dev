@@ -1,0 +1,21 @@
+#contact.neon-contact{position:relative;isolation:isolate;overflow:hidden;text-align:center;padding-block:108px 92px;background:radial-gradient(ellipse at 50% 15%,#00364b78,transparent 65%),linear-gradient(#03131f99,#020c15e8)!important}
+#contact.neon-contact>.eyebrow{position:relative;font-size:16px;letter-spacing:.23em;color:#edf9ff;margin:0 0 26px}
+#contact.neon-contact h2{position:relative;font-size:clamp(38px,4.4vw,70px);line-height:1.1;letter-spacing:-2px;font-weight:600;margin:0 0 28px;color:#f1f8fc;background:none;-webkit-text-fill-color:initial;animation:none}
+#contact.neon-contact h2 em{font-style:normal;font-weight:600;color:#8af1fb;background:linear-gradient(180deg,#f1feff,#65e7fa);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;animation:none}
+#contact.neon-contact .contact-intro{position:relative;color:#d5e6ef;font-size:clamp(17px,1.6vw,23px);line-height:1.55;max-width:850px;margin:0 auto 38px}
+.contact-card-grid{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:1290px;margin:auto;text-align:left}
+.contact-card{position:relative;display:flex;align-items:center;gap:26px;min-height:124px;padding:23px 30px;color:#effaff;text-decoration:none;background:linear-gradient(120deg,#06324988,#031826a8);border:1px solid #20deed;border-radius:15px;box-shadow:inset 0 0 25px #009ac00b,0 0 18px #00cbea09;transition:transform .25s,box-shadow .25s,background .25s}
+.contact-card:hover{color:#fff;background:linear-gradient(120deg,#09465d99,#042235c9);box-shadow:0 0 25px #19dcec28,inset 0 0 24px #00b8de12;transform:translateY(-3px)}
+.contact-card-icon{display:grid;place-items:center;width:72px;height:72px;flex-shrink:0;border-radius:50%;border:1px solid #95efff;box-shadow:0 0 20px #26d4f548,inset 0 0 20px #29bdff1a;color:#e8fbff;background:#07314755}
+.contact-card-icon svg{width:40px;height:40px}
+.contact-whatsapp .contact-card-icon,.contact-upwork .contact-card-icon{border-color:#77f3ac;background:#06382470;box-shadow:0 0 22px #19f99a36,inset 0 0 18px #3cf69210}
+.contact-linkedin .contact-card-icon{background:#072e5270;border-color:#77ddff;box-shadow:0 0 22px #20aaff40}
+.contact-card-label{font-size:clamp(16px,1.45vw,22px);line-height:1.4;font-weight:500}
+.contact-card-arrow{margin-left:auto;color:#86ecfb;font-size:26px;flex-shrink:0;transition:transform .25s}
+.contact-card:hover .contact-card-arrow{transform:translate(3px,-3px)}
+.contact-orbits{position:absolute;z-index:-1;inset:0;pointer-events:none;overflow:hidden}
+.contact-orbits i{position:absolute;left:10%;top:90px;width:80%;height:300px;border:1px solid #26d1fc26;border-bottom-color:transparent;border-radius:50%;transform:rotate(-12deg);animation:contact-orbit-drift 18s ease-in-out infinite alternate}
+.contact-orbits i:nth-child(2){left:25%;top:180px;width:95%;height:230px;animation-delay:-9s;opacity:.6}
+@keyframes contact-orbit-drift{to{transform:translateY(18px) rotate(-7deg)}}
+@media(max-width:760px){#contact.neon-contact{padding-block:64px 56px}#contact.neon-contact h2{letter-spacing:-1px}.contact-card-grid{grid-template-columns:1fr;gap:16px}.contact-card{min-height:100px;padding:18px;gap:17px}.contact-card-icon{width:56px;height:56px}.contact-card-icon svg{width:32px;height:32px}.contact-card-label{font-size:16px}.contact-card-arrow{font-size:22px}.contact-intro br{display:none}}
+@media(prefers-reduced-motion:reduce){.contact-orbits i{animation:none}.contact-card,.contact-card-arrow{transition:none}.contact-card:hover,.contact-card:hover .contact-card-arrow{transform:none}}
